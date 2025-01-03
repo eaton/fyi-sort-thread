@@ -1,0 +1,45 @@
+{
+  "name": "@eatonfyi/sort-thread",
+  "version": "0.1.0",
+  "description": "Generate sortable IDs for nested trees of objects",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "/dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "pkgroll",
+    "package": "pkgroll --clean-dist --minify",
+    "test": "tap"
+  },
+  "author": "Jeff Eaton <jeff@eaton.fyi> (https://eaton.fyi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eaton/fyi-sort-thread.git"
+  },
+  "keywords": [
+    "eatonfyi",
+    "treesort"
+  ],
+  "devDependencies": {
+    "@tapjs/typescript": "^3.0.0",
+    "@types/node": "^22.10.2",
+    "pkgroll": "^2.5.1",
+    "tap": "^21.0.1",
+    "typescript": "^5.7.2"
+  }
+}

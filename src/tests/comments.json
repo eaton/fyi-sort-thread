@@ -1,0 +1,12 @@
+[ 
+  { "id": "1", "title": "First post!" }, 
+  { "id": "2", "title": "Second!" }, 
+  { "id": "3", "parent": "1", "title": "Pfft" }, 
+  { "id": "4", "title": "A real reply"  }, 
+  { "id": "5", "parent": "4", "title": "Serious ideas" }, 
+  { "id": "6", "parent": "5", "title": "More talk" }, 
+  { "id": "7", "parent": "2", "title": "Digression" }, 
+  { "id": "8", "title": "Spam" }, 
+  { "id": "9", "parent": "8", "title": "Spam?" }, 
+  { "id": "10", "parent": "5", "title": "Sigh" } 
+]

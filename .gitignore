@@ -1,0 +1,4 @@
+**/.DS_Store
+/.tap
+node_modules
+/*.env
